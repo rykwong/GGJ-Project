@@ -11,7 +11,18 @@ public class Ball : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Trampoline"))
         {
-            rb.velocity = Vector2.up * launchForce;
+            if (DogMovement.direction == "right")
+            {
+                Vector2 temp = rb.velocity;
+                temp.x = Vector2.right.x *launchForce;
+                rb.velocity = temp;
+            }
+            else if (DogMovement.direction == "left")
+            {
+                Vector2 temp = rb.velocity;
+                temp.x = Vector2.left.x *launchForce;
+                rb.velocity = temp;
+            }
         }
     }
 }

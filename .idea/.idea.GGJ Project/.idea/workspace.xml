@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f9f45f-56a5-4aea-8bc0-a564533bafda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NPCTesting.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NPCTesting.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DogTesting.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DogTesting.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +19,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../GGJ Test/Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GGJ Test/Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/ryankwong/Desktop/Programming/Game Dev/GGJ Project/Assets/Scenes/NPCTesting.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -20,7 +28,12 @@
       <option value="$PROJECT_DIR$/Assets/Script/Dialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/NPC.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/DialogueManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DogMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nldIakuBV598Ac46wa5jsgP9E7" />
@@ -70,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611968538151</updated>
-      <workItem from="1611968548930" duration="2017000" />
+      <workItem from="1611968548930" duration="6409000" />
     </task>
     <servers />
   </component>

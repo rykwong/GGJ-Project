@@ -6,7 +6,10 @@ public class Movement : MonoBehaviour
 {
 
 	public CharacterController2D controller;
+	public Animator animator;
+
 	public float runSpeed = 40f;
+	
 	float horizontalMove = 0f;
 	bool jump = false;
 	bool crouch = false;
@@ -16,10 +19,12 @@ public class Movement : MonoBehaviour
     void Update()
     {
     	horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+    	animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
     	if(Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
     	{
     		jump = true;
+    		animator.SetBool("IsJumping", true);
     	}
     	if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
     	{
@@ -29,6 +34,11 @@ public class Movement : MonoBehaviour
     	{
     		crouch = false;
     	}
+    }
+
+    public void OnLanding()
+    {
+    	animator.SetBool("IsJumping", false);
     }
 
     void FixedUpdate()

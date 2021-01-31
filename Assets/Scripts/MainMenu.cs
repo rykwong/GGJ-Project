@@ -13,7 +13,7 @@ public class MainMenu : MonoBehaviour
 	{
 	   	yield return new WaitForSeconds(0.45f);
 		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-		SceneManager.LoadScene("TakeOne");
+		SceneManager.LoadScene("BarkandFound");
 	}
     public void QuitGame()
     {

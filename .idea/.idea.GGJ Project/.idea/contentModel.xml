@@ -15,6 +15,8 @@
           <e p="Dialogue.cs" t="Include" />
           <e p="DialogueManager.cs" t="Include" />
           <e p="DogMovement.cs" t="Include" />
+          <e p="Ending.cs" t="Include" />
+          <e p="EndingMenu.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MathManager.cs" t="Include" />
           <e p="MathOperations.cs" t="Include" />

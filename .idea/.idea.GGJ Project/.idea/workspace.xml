@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f9f45f-56a5-4aea-8bc0-a564533bafda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Dog Animations/dog.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dog Animations/dog.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NPC.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NPC.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BarkandFound.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BarkandFound.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BringTo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BringTo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChoiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChoiceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MathManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MathManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +32,20 @@
       <option value="$PROJECT_DIR$/Assets/Script/Dialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/NPC.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/DialogueManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Gas.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Problem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MathOperations.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DogMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ChoiceManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/QuestManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NPC.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BringTo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ChoiceManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MathManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/QuestManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nldIakuBV598Ac46wa5jsgP9E7" />
@@ -94,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611968538151</updated>
-      <workItem from="1611968548930" duration="21012000" />
+      <workItem from="1611968548930" duration="23833000" />
     </task>
     <servers />
   </component>

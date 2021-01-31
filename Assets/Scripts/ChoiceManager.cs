@@ -46,6 +46,10 @@ public class ChoiceManager : MonoBehaviour
             Debug.Log("You chose to help with homework");
             questManager.MathQuest();
         }
+        else if (text == "Go home")
+        {
+            questManager.OwnerQuest();
+        }
         
         
     }

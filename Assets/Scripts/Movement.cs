@@ -38,6 +38,7 @@ public class Movement : MonoBehaviour
 
     public void OnLanding()
     {
+	    Debug.Log("Landing");
     	animator.SetBool("IsJumping", false);
     }
 

@@ -18,7 +18,7 @@ public class BringTo : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Vector2.Distance(transform.position, target.transform.position) < 1)
+        if (Vector2.Distance(transform.position, target.transform.position) < 3)
         {
             Debug.Log("Brought the item to " + target.name);
             PlayerPrefs.SetInt(quest,1);

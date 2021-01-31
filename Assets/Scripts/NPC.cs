@@ -23,7 +23,7 @@ public class NPC : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKey("e") && Vector2.Distance(transform.position, player.transform.position) < 1.5f)
+        if (Input.GetKey("e") && Vector2.Distance(transform.position, player.transform.position) < 3f)
         {
             TriggerDialogue();
         }

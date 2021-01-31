@@ -27,6 +27,6 @@ public class NPC : MonoBehaviour
         {
             TriggerDialogue();
         }
-        Debug.Log(Vector2.Distance(transform.position, player.transform.position));
+        //Debug.Log(Vector2.Distance(transform.position, player.transform.position));
     }
 }

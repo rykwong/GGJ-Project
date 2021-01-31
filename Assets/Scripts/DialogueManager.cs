@@ -58,23 +58,25 @@ public class DialogueManager : MonoBehaviour
     {
         if (sentences.Count == 0)
         {
-            if (hasChoice)
-            {
-                ShowChoices();
-            }
-            else
+            if (!hasChoice)
             {
                 EndDialogue();
             }
-            cont.gameObject.SetActive(false);
-            return;
         }
-
         string sentence = sentences.Dequeue();
         //dialogue.text = sentence;
         //Debug.Log(sentence);
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
+        
+        if (sentences.Count == 0)
+        {
+            if (hasChoice)
+            {
+                ShowChoices();
+                cont.gameObject.SetActive(false);
+            }
+        }
     }
 
     IEnumerator TypeSentence(string sentence)

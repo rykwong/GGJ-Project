@@ -6,6 +6,7 @@ public class BringTo : MonoBehaviour
 {
     [SerializeField] private GameObject target;
     [SerializeField] private string quest;
+    [SerializeField] private Dialogue dialogue;
     
     
     // Start is called before the first frame update
@@ -21,6 +22,8 @@ public class BringTo : MonoBehaviour
         {
             Debug.Log("Brought the item to " + target.name);
             PlayerPrefs.SetInt(quest,1);
+            GameObject.Find("Trucker").GetComponent<NPC>().dialogue = dialogue;
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
             Destroy(gameObject);
         }
     }

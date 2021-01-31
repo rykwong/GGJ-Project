@@ -9,6 +9,7 @@ public class DogMovement : MonoBehaviour
     //private Rigidbody2D rb;
 
     public static string direction;
+    public Animator anim;
 
     private void Awake()
     {
@@ -21,16 +22,19 @@ public class DogMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))  
         {  
             this.transform.Translate(Vector3.right * Time.deltaTime);
+            anim.SetBool("isWalking",true);
             direction = "right";
         }  
          
         else if (Input.GetKey(KeyCode.LeftArrow))  
         {  
             this.transform.Translate(Vector3.left * Time.deltaTime);
+            anim.SetBool("isWalking",true);
             direction = "left";
         }
         else
         {
+            anim.SetBool("isWalking",false);
             direction = "none";
         }
          

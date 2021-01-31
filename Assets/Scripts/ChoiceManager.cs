@@ -31,6 +31,11 @@ public class ChoiceManager : MonoBehaviour
             Debug.Log("You chose to pee on him");
             questManager.TruckerQuest(2);
         }
+        else if (text == "Deliver lunch")
+        {
+            Debug.Log("You chose to deliver lunch");
+            questManager.OldLadyQuest(1);
+        }
         
         
     }

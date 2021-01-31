@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4f9f45f-56a5-4aea-8bc0-a564533bafda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dog Animations/dog.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dog Animations/dog.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BarkandFound.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BarkandFound.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BringTo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BringTo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChoiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChoiceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Ending.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Ending.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EndingMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EndingMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tests.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/owner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/owner.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/owner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/owner.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/owner.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611968538151</updated>
-      <workItem from="1611968548930" duration="23833000" />
+      <workItem from="1611968548930" duration="24010000" />
     </task>
     <servers />
   </component>

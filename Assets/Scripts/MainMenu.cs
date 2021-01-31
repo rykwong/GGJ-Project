@@ -11,12 +11,9 @@ public class MainMenu : MonoBehaviour
     }
     IEnumerator ButtonDelay()
 	{
-   		Debug.Log(Time.time);
 	   	yield return new WaitForSeconds(0.45f);
-    	Debug.Log(Time.time);
-
-    	// This line will be executed after 10 seconds passed
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		SceneManager.LoadScene("TakeOne");
 	}
     public void QuitGame()
     {

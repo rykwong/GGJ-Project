@@ -7,6 +7,7 @@ public class QuestManager : MonoBehaviour
     public GameObject gas;
     public GameObject lunch;
     public GameObject player;
+    public GameObject math;
     public Dialogue TruckerDialogue;
 
     public Dialogue OldLadyDialogue;
@@ -44,5 +45,10 @@ public class QuestManager : MonoBehaviour
             GameObject.Find("Old Lady").GetComponent<NPC>().dialogue = OldLadyDialogue;
             FindObjectOfType<DialogueManager>().StartDialogue(OldLadyDialogue);
         }
+    }
+
+    public void MathQuest()
+    {
+        math.SetActive(true);
     }
 }

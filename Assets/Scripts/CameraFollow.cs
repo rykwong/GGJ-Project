@@ -13,6 +13,6 @@ public class CameraFollow : MonoBehaviour
    		Vector3 desiredPosition = target.position + offset;
    		transform.position = desiredPosition;
 
-   		transform.LookAt(target);
+   		//transform.LookAt(target);
    }
 }

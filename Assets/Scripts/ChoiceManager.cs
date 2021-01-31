@@ -36,6 +36,16 @@ public class ChoiceManager : MonoBehaviour
             Debug.Log("You chose to deliver lunch");
             questManager.OldLadyQuest(1);
         }
+        else if (text == "Bark loudly")
+        {
+            Debug.Log("You chose to bark loudly");
+            questManager.OldLadyQuest(2);
+        }
+        else if (text == "Do homework")
+        {
+            Debug.Log("You chose to help with homework");
+            questManager.MathQuest();
+        }
         
         
     }

@@ -7,12 +7,11 @@ using UnityEngine.UI;
 public class MathManager : MonoBehaviour
 {
     private Problem[] problems = new Problem[5];
+    [SerializeField] private GameObject math;
     public InputField iField;
     public Text problemText;
     public int curProblem;
-
-    public static MathManager instance;
-    // Start is called before the first frame update
+    [SerializeField] private Dialogue dialogue;
     void Start()
     {
         for(int i = 0; i < problems.Length; i ++){
@@ -24,14 +23,16 @@ public class MathManager : MonoBehaviour
         }
         SetProblem(0);
     }
-    void Awake()
-    {
-        instance = this;
-    }
+
 
     private void Complete()
     {
         Debug.Log("Finished");
+        NPC girl = GameObject.Find("Girl").GetComponent<NPC>();
+        PlayerPrefs.SetInt(girl.quest,1);
+        girl.dialogue = dialogue;
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        math.SetActive(false);
     }
     private void SetProblem(int problem)
     {

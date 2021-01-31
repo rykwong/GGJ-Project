@@ -5,6 +5,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AudioScript.cs" t="Include" />
           <e p="Ball.cs" t="Include" />
           <e p="BringTo.cs" t="Include" />
           <e p="ButtonFX.cs" t="Include" />
@@ -19,6 +20,7 @@
           <e p="MathOperations.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="NPC.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
           <e p="Problem.cs" t="Include" />
           <e p="QuestManager.cs" t="Include" />
         </e>

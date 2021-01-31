@@ -7,6 +7,7 @@ public class NPC : MonoBehaviour
 {
     public Dialogue dialogue;
     private GameObject player;
+    public string quest;
 
     private void Awake()
     {
@@ -14,14 +15,18 @@ public class NPC : MonoBehaviour
     }
     public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        if (PlayerPrefs.GetInt(quest) == 0)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        }
     }
 
     public void Update()
     {
-        if (Input.GetKey("e") && Vector2.Distance(transform.position, player.transform.position) < 1)
+        if (Input.GetKey("e") && Vector2.Distance(transform.position, player.transform.position) < 1.5f)
         {
             TriggerDialogue();
         }
+        Debug.Log(Vector2.Distance(transform.position, player.transform.position));
     }
 }

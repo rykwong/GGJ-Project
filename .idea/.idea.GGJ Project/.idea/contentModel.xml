@@ -6,13 +6,16 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Ball.cs" t="Include" />
+          <e p="BringTo.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CharacterController2D.cs" t="Include" />
+          <e p="ChoiceManager.cs" t="Include" />
           <e p="Dialogue.cs" t="Include" />
           <e p="DialogueManager.cs" t="Include" />
           <e p="DogMovement.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="NPC.cs" t="Include" />
+          <e p="QuestManager.cs" t="Include" />
         </e>
       </e>
       <e p="GGJ Project.sln" t="IncludeFlat" />

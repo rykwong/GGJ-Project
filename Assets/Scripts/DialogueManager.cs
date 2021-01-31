@@ -10,6 +10,9 @@ public class DialogueManager : MonoBehaviour
     public Text dialogue;
     public Animator animator;
     public Button[] choices;
+    public Button cont;
+    private bool hasChoice = true;
+    private bool isDialogue = false;
 
     
     void Start()
@@ -20,16 +23,25 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        isDialogue = true;
         //Debug.Log("Starting conversatino with " + dialogue.name);
         animator.SetBool("IsOpen", true);
         name.text = dialogue.name;
         sentences.Clear();
-        
+
+        if (dialogue.choices.Length == 0)
+        {
+            hasChoice = false;
+        }
+        else
+        {
+            hasChoice = true;
+        }
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
-        
+        cont.gameObject.SetActive(true);
         foreach (Button choice in choices)
         {
             choice.gameObject.SetActive(false);
@@ -46,7 +58,15 @@ public class DialogueManager : MonoBehaviour
     {
         if (sentences.Count == 0)
         {
-            ShowChoices();
+            if (hasChoice)
+            {
+                ShowChoices();
+            }
+            else
+            {
+                EndDialogue();
+            }
+            cont.gameObject.SetActive(false);
             return;
         }
 
@@ -68,14 +88,16 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDialogue()
     {
-        Debug.Log("End Conversation");
-        animator.SetBool("IsOpen", false);
-        
+        isDialogue = false;
+        if(animator.GetBool("IsOpen"))
+        {
+            Debug.Log("End Conversation");
+            animator.SetBool("IsOpen", false);
+        }
     }
 
     public void ShowChoices()
     {
-        
         foreach (Button choice in choices)
         {
             choice.gameObject.SetActive(true);
